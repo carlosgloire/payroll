@@ -459,7 +459,7 @@ section .employee_middle_part{
    display: flex;
    justify-content: center;
    align-items: center;
- 
+   height: 100vh;
 
 }
 .employee_edit_part {
