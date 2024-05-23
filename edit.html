@@ -79,13 +79,13 @@
                 <i class="fa-solid fa-chart-line"></i>
                 <a href="index.html">Dashboard</a>
             </div>
-            <div class="active">
+            <div >
                 <i class="fa-brands fa-elementor"></i>
                 <a href="components.html">Components</a>
             </div>
-            <div>
+            <div class="active">
                 <i class="fa-brands fa-wpforms"></i>
-                <a href="edit.html">Edit</a>
+                <a href="">Edit</a>
             </div>
             <div>
                 <i class="fa-solid fa-table-cells"></i>
@@ -100,91 +100,36 @@
                 <a href="">Logout</a>
             </div>
         </nav>
-        <div class="employee_middle_part">
-            <div class="employee_title">
-                <h5>GENERATE SHEET</h5>
-                <div class="employee_central_div_sheets" >
-                    <div class="left_div_sheets">
-                        <h5>*Gros salary</h5>
-                        <div class="detail">
-                            <div class="icon">
-                                <div><i class="fa-solid fa-file-invoice-dollar"></i></div>
-                                <div>Basic Salary in SSP</div> 
-                            </div>
-                            <span>20</span>
-                        </div>
-                        <div class="detail">
-                            <div class="icon">
-                                <div><i class="fa-solid fa-business-time"></i></div>
-                                <div>Overtime in hour</div> 
-                            </div>
-                            <span>20</span>
-                        </div>
-                        <div class="detail">
-                            <div class="icon">
-                                <div><i class="fa-solid fa-handshake-angle"></i></div>
-                                <div>Allowances in SSP</div> 
-                            </div>
-                            <span>150,000</span>
-                        </div>
-                        <div class="detail">
-                            <div class="icon">
-                                <div><i class="fa-solid fa-handshake-angle"></i></div>
-                                <div>Bonus and commission in SSP</div> 
-                            </div>
-                            <span>300,000</span>
-                        </div>
-                        <p>Gros Salary: <span>700,000 SSP</span></p>
+        <div class="employee_left_div">
+            <div class="employee_edit_part" >
+                <h5>Edit</h5>
+                <form action="">
+                    <div>
+                        <label for="">Username</label>
+                        <input type="text" placeholder="ANICET Chiza">
                     </div>
-                    <div class="left_div_sheets">
-                        <h5>*Deductions</h5>
-                        <div class="detail">
-                            <div class="icon">
-                                <div><i class="fa-solid fa-business-time"></i></div>
-                                <div>Taxes in %</div> 
-                            </div>
-                            <span>20 %</span>
-                        </div>
-                        <div class="detail">
-                            <div class="icon">
-                                <div><i class="fa-solid fa-business-time"></i></div>
-                                <div>Absence deduction in days </div> 
-                            </div>
-                            <span>10</span>
-                        </div>
-                        <div class="detail">
-                            <div class="icon">
-                                <div><i class="fa-solid fa-business-time"></i></div>
-                                <div>Social Security and Medicare in %</div> 
-                            </div>
-                            <span>5 %</span>
-                        </div>
-                        <div class="detail">
-                            <div class="icon">
-                                <div><i class="fa-solid fa-business-time"></i></div>
-                                <div>Retirement Contribution in %</div> 
-                            </div>
-                            <span>3 %</span>
-                        </div>
-                        <div class="detail">
-                            <div class="icon">
-                                <div><i class="fa-solid fa-business-time"></i></div>
-                                <div>Insurance Premiums in SSP</div> 
-                            </div>
-                            <span>3 %</span>
-                        </div>
+                    <div>
+                        <label for="">Profile photo</label>
+                        <input type="file" class="file">
                     </div>
-                </div>
-                <div>
-                    <p>Deduction: <span>2 500 000 SSP</span></p>
-                    <p>NET SALARY: <span>1 500 000 SPP</span></p> 
-                </div>
-                <div class="buttons">
-                    <a href="send_request.html">Send a request</a>
-                    <button>Generate Pay sheet</button>
-                </div>
+                    <h5>Change password</h5>
+                    <div>
+                        <label for="">Old password</label>
+                        <input type="password">
+                    </div>
+                    <div>
+                        <label for="">New password</label>
+                        <input type="password">
+                    </div>
+                    <div>
+                        <label for="">Repeat new password</label>
+                        <input type="password" >
+                    </div>
+                    <button >Save changes</button>
+                </form>
             </div>
         </div>
+        
     </section>
     <script src="assets/js/chart.js"></script>
     <script src="assets/js/menu_handler.js"></script>

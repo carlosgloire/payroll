@@ -449,3 +449,63 @@ section .employee_middle_part{
 }
 
 
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* EDIT PART */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+.employee_left_div{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+
+}
+.employee_edit_part {
+    padding: 50px;
+    background-color: white;
+    margin-top: 90px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.employee_edit_part form div{
+    display: grid;
+    margin-bottom: 10px;
+}
+.employee_edit_part form h5{
+    margin-top: 20px;
+}
+.employee_edit_part form div input{
+    padding: 5px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 14px;
+}
+.employee_edit_part form div .file{
+    padding: 2px;
+}
+.employee_edit_part form label{
+    font-size: 14px;
+}
+.employee_edit_part form button{
+    background-color: #122840;
+    width: 100%;
+    border: none;
+    border-radius:4px;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+/*--------------------Media Query-----------------*/
+
+@media screen and (max-width: 388px) {
+    .employee_edit_part{
+        padding: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+    }
+}
