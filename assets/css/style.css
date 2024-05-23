@@ -47,7 +47,6 @@ body {
 }
 .employee_searchBar .employee_searchInput i{
     cursor: pointer;
-    display: none;
 }
 .employee_searchBar .employee_searchInput div{
     border:  1px solid gray;
@@ -119,6 +118,7 @@ section nav {
     gap: 20px;
     background-color: white;
 }
+
 section nav div{
     border-radius: 4px;
     padding: 5px;

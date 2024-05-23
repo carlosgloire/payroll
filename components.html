@@ -31,25 +31,50 @@
                 PAYROLL SYSTEM
             </div>
             <div class="employee_searchInput">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars menu"></i>
                 <div >
                     <input type="text" placeholder="Search here">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
         </div>
-        <div class="employee_profile">
-            <i class="fa-regular fa-bell"></i>
-            <i class="fa-regular fa-message"></i>
-            <div class="employee_names">
-                <i class="fa-regular fa-circle-user"></i>
-                K.Anderson
-                <i class="fa-solid fa-caret-down"></i>
+        <div class="user-credentials" style="display: flex; align-items: center;">
+            <div class="employee_profile">
+                <i class="fa-regular fa-bell"></i>
+                <i class="fa-regular fa-message"></i>
+                <div class="employee_names">
+                    <i class="fa-regular fa-circle-user"></i>
+                    K.Anderson
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
             </div>
+            <i class="fa-solid fa-ellipsis-vertical setting" ></i>
         </div>
     </header>
     <section>
-        <nav>
+        <div class="employee_popup">
+            <div>
+                <i class="fa-regular fa-bell"></i>
+                <a href="">K.Anderson</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-message"></i>
+                <a href="">Messages</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-bell"></i>
+                <a href="">Notification</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <a href="">Logout</a>
+            </div>
+        </div>
+        <nav class="menu_bar ">
+            <p class="search">
+                <input type="text" placeholder="Search here">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </p>
             <div >
                 <i class="fa-solid fa-chart-line"></i>
                 <a href="index.html">Dashboard</a>
@@ -162,6 +187,8 @@
         </div>
     </section>
     <script src="assets/js/chart.js"></script>
+    <script src="assets/js/menu_handler.js"></script>
+    <script src="assets/js/setting.handler.js"></script>
 </body>
 </html>
 <script
