@@ -116,6 +116,19 @@ section nav div i{
 section nav div a{
     color: #000;
 }
+section nav .search{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+section nav .search input{
+    border: none;
+    outline: none;
+}
+section nav .search:hover{
+    border-bottom: 1px solid gray;
+}
 section nav .active{
      border-radius: 4px;
      background-color:  #f6f9ff;
@@ -294,6 +307,13 @@ section .employee_middle_part{
  
     .employee_searchBar .employee_searchInput div{
         display: none;
+    }
+    section nav .search{
+        display: block;
+        
+    }
+    section nav .search input{
+        width: 90%;
     }
 }
 @media screen and (max-width: 464px){
