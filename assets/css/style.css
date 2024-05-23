@@ -218,20 +218,19 @@ section .employee_middle_part{
 }
 
 /*--------------------Media Query-----------------*/
+
 @media screen and (max-width: 1125px) {
     nav{
-        display: none;
-    }
-    section {
-        grid-template-columns:  auto;
-    }
-    .employee_searchBar .employee_searchInput i{
+        position: absolute;
+        z-index: 5;
         display: block;
-    }  
-}
-@media screen and (max-width: 1125px) {
-    nav{
-        display: none;
+        height: 100vh;
+        width: 30%;
+        margin-left: -100%;
+        transition: 0.8s all ease;
+    }
+    nav.mobile-menu{
+        margin-left: 0;
     }
     section {
         grid-template-columns:  auto;
@@ -394,3 +393,5 @@ section .employee_middle_part{
         width: 100%;
     }
 }
+
+
