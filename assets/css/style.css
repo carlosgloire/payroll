@@ -225,7 +225,7 @@ section .employee_middle_part{
         z-index: 5;
         display: block;
         height: 100vh;
-        width: 30%;
+        width: 290px;
         margin-left: -100%;
         transition: 0.8s all ease;
     }
