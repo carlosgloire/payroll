@@ -46,6 +46,7 @@ body {
     -webkit-column-gap: 0.5rem;
 }
 .employee_searchBar .employee_searchInput i{
+    cursor: pointer;
     display: none;
 }
 .employee_searchBar .employee_searchInput div{
@@ -82,13 +83,34 @@ body {
     gap: 0.5rem; 
     -webkit-column-gap: 0.5rem; 
 }
-.employee_header  .setting{
+.employee_header .user-credentials .setting{
     display: none;
+    margin-left: 10px;
+    cursor: pointer;
 }
 /*--------------------Middle section-----------------*/
+
 section {
     display: grid;
     grid-template-columns: 20% auto;
+}
+section .employee_popup{
+    position: absolute;
+    right: 0;
+    margin-top: 70px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 8;
+    display: none;
+    margin-right: 2px;
+}
+section .employee_popup div i{
+    margin-right: 10px;
+}
+section .employee_popup div a{
+    color: black;
+    text-decoration: none;
 }
 section nav {
     padding: 20px;
@@ -116,6 +138,7 @@ section nav div i{
 section nav div a{
     color: #000;
 }
+
 section nav .search{
     align-items: center;
     display: flex;
@@ -284,6 +307,17 @@ section .employee_middle_part{
         display: flex;
         justify-content: space-between;
         width: 100%;
+    }
+    .employee_header .user-credentials .setting{
+        display: block;
+    }
+    section .employee_popup.mobile-menu{
+        margin-top: 70px;
+    }
+    section .employee_popup{
+        display: block;
+        margin-top: -100%;
+        transition: 0.8s all ease;
     }
   
 }
