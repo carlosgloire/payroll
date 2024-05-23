@@ -97,7 +97,7 @@ section {
 section .employee_popup{
     position: absolute;
     right: 0;
-    margin-top: 70px;
+    margin-top: 67px;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -312,7 +312,7 @@ section .employee_middle_part{
         display: block;
     }
     section .employee_popup.mobile-menu{
-        margin-top: 70px;
+        margin-top: 67px;
     }
     section .employee_popup{
         display: block;
